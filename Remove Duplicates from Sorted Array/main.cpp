@@ -21,10 +21,10 @@ int main() {
     Solution sol;
     vector<int> nums = {0,0,1,1,1,2,2,3,3,4};
     int newLength = sol.removeDuplicates(nums);
-    cout << "New length: " << newLength << endl; // Output: New length: 5
+    cout << "New length: " << newLength << endl;
     cout << "Modified array: ";
-    for (int i = 0; i < newLength; i++) {
-        cout << nums[i] << " "; // Output: Modified array: 0 1 2 3 4 
+    for(int num : nums) {
+        cout << num << " ";
     }
     cout << endl;
     return 0;

@@ -27,6 +27,6 @@ public:
 int main() {
     Solution sol;
     vector<int> nums = {3,3,2,3};
-    cout << sol.majorityElement(nums) << endl; // Output: 3
+    cout << sol.majorityElement(nums) << endl;
     return 0;
 }
